@@ -29,3 +29,5 @@ files: pre ${UTIL_FILES_SOURCES} ${API_FILES_SOURCES} ${API_UTIL_FILES_SOURCES}
 clean:
 	rm -rf projects/polpware/tinymce-util/src/lib/util
 	rm -rf projects/polpware/tinymce-util/src/lib/api/util
+
+include Makefile.TinymceUtil.inc
