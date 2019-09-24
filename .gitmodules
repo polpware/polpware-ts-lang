@@ -1,3 +1,6 @@
 [submodule "deps/tinymce"]
 	path = deps/tinymce
 	url = https://github.com/tinymce/tinymce.git
+[submodule "deployment/polpware-tinymce-util"]
+	path = deployment/polpware-tinymce-util
+	url = https://github.com/polpware-frontend-modules/polpware-tinymce-util.git
