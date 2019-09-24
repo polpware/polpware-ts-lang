@@ -4,7 +4,7 @@ DeployTarget4TinymceUtil := ./deployment/polpware-tinymce-util
 
 build-tinymce-util:
 	echo "Build ..."
-	npm run build
+	npm run tinymce-util
 	echo "Build done"
 
 copy-tinymce-util:
