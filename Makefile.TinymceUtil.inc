@@ -36,7 +36,7 @@ push-tinymce-util:
 	cd $(DeployTarget4TinymceUtil) && git push
 	echo "Push done"
 
-deploy-tinymce-util: build-tinymce-util copy-tinymce-util doc-tinymce-util push-tinymce-util
+deploy-tinymce-util: build-tinymce-util copy-tinymce-util push-tinymce-util
 
 
 .PHONY: build-tinymce-util copy-tinymce-util doc-tinymce-util push-tinymce-util deploy-tinymce-util
