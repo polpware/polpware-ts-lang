@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@polpware/tinymce-util": [
+        "dist/polpware/tinymce-util"
+      ],
+      "@polpware/tinymce-util/*": [
+        "dist/polpware/tinymce-util/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
