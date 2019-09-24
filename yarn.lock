@@ -856,23 +856,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ephox/boulder@^3.3.35":
-  version "3.3.35"
-  resolved "https://registry.yarnpkg.com/@ephox/boulder/-/boulder-3.3.35.tgz#2d7cd1337cd36afb4c25d7dccf882d729a61f11d"
-  integrity sha512-qU4Q8OsS3EMcXRr6bej6PFBgDw4MPReHS/s/i9O/YtGY96TIHSQwqpNmHybDmv1XMmt4bO4yjgIF1jRBKFpolA==
-  dependencies:
-    "@ephox/katamari" "^4.0.3"
-    "@ephox/sand" "^3.0.12"
-
-"@ephox/bridge@^1.0.86":
-  version "1.0.86"
-  resolved "https://registry.yarnpkg.com/@ephox/bridge/-/bridge-1.0.86.tgz#84b45eed1e8ea079cc712d2a3acea0876b593401"
-  integrity sha512-YnPKB9k9unG/3OiR5WCoAgqKEmgloeb7vn+QpIiuZkFLClbAAGhuA9qsWo6SWDfO39FloyMDolo54Nhe/GYSgQ==
-  dependencies:
-    "@ephox/boulder" "^3.3.35"
-    "@ephox/dom-globals" "^1.1.2"
-    "@ephox/katamari" "^4.0.3"
-
 "@ephox/dom-globals@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@ephox/dom-globals/-/dom-globals-1.1.2.tgz#cb181a7652c1f097c9920fcf551c1fe202f70041"
@@ -886,23 +869,6 @@
     "@ephox/dom-globals" "^1.1.2"
     "@ephox/wrap-promise-polyfill" "^2.2.0"
     tslib "^1.9.3"
-
-"@ephox/sand@^3.0.12":
-  version "3.0.12"
-  resolved "https://registry.yarnpkg.com/@ephox/sand/-/sand-3.0.12.tgz#648a137be17d051b707cdc08ef78cd7155dba26c"
-  integrity sha512-419Laf+dZW8sgref8Sim8ViTwpdFd5HSeBFYIvoyT4K6Jyxf2JnqxqJLNw0g/sQ4mG98rgdVqZlhChjRvdFzvA==
-  dependencies:
-    "@ephox/dom-globals" "^1.1.2"
-    "@ephox/katamari" "^4.0.3"
-
-"@ephox/sugar@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@ephox/sugar/-/sugar-5.0.13.tgz#9406075c8b55b1929ac305a6e4977d216c896dbd"
-  integrity sha512-cht2Zs8LY8d4d+grE265zr++PBDnVc++/krrSmKDjX2zzkB6oRK6aQSto4OmEYLBa/U6AOmeoNdyGcgNCp4Kpw==
-  dependencies:
-    "@ephox/dom-globals" "^1.1.2"
-    "@ephox/katamari" "^4.0.3"
-    "@ephox/sand" "^3.0.12"
 
 "@ephox/wrap-promise-polyfill@^2.2.0":
   version "2.2.0"
@@ -953,11 +919,6 @@
   integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
   dependencies:
     defer-to-connect "^1.0.1"
-
-"@tinymce/oxide-icons-default@^1.0.42":
-  version "1.0.42"
-  resolved "https://registry.yarnpkg.com/@tinymce/oxide-icons-default/-/oxide-icons-default-1.0.42.tgz#ecf32b8ee85cae5f7f215d15896dabd720d9621c"
-  integrity sha512-F6a2PyKw7cAfVnD646z9s3ZL5+k2z3OiAlsD4PdPr3hrNnBp8Sy3p0SCv4AI04shLGAHvmw3IOasx1s1CZkiBQ==
 
 "@types/estree@0.0.39":
   version "0.0.39"

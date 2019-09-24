@@ -11,9 +11,7 @@
         "tinymce-util": "ng build @polpware/tinymce-util"
     },
     "private": true,
-    "dependencies": {
-        "tslib": "^1.10.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@angular-devkit/build-angular": "~0.803.5",
         "@angular-devkit/build-ng-packagr": "~0.803.5",
@@ -28,6 +26,8 @@
         "@angular/platform-browser": "~8.2.7",
         "@angular/platform-browser-dynamic": "~8.2.7",
         "@angular/router": "~8.2.7",
+        "@ephox/dom-globals": "^1.1.2",
+        "@ephox/katamari": "^4.0.3",
         "@types/jasmine": "~3.3.8",
         "@types/jasminewd2": "~2.0.3",
         "@types/node": "~8.9.4",
@@ -47,14 +47,7 @@
         "tslib": "^1.10.0",
         "tslint": "~5.15.0",
         "typescript": "~3.5.3",
-        "zone.js": "~0.9.1",
-        "@ephox/bridge": "^1.0.86",
-        "@ephox/dom-globals": "^1.1.2",
-        "@ephox/katamari": "^4.0.3",
-        "@ephox/sugar": "^5.0.13",
-        "@tinymce/oxide-icons-default": "^1.0.42"
+        "zone.js": "~0.9.1"
     },
-    "peerDependencies": {
-    }
-
+    "peerDependencies": {}
 }

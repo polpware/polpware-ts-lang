@@ -1,13 +1,10 @@
 {
-  "name": "@polpware/tinymce-util",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^8.2.7",
-      "@angular/core": "^8.2.7",
-        "@ephox/bridge": "^1.0.86",
+    "name": "@polpware/tinymce-util",
+    "version": "0.9.0",
+    "peerDependencies": {
+        "@angular/common": "^8.2.7",
+        "@angular/core": "^8.2.7",
         "@ephox/dom-globals": "^1.1.2",
-        "@ephox/katamari": "^4.0.3",
-        "@ephox/sugar": "^5.0.13",
-        "@tinymce/oxide-icons-default": "^1.0.42"
-  }
+        "@ephox/katamari": "^4.0.3"
+    }
 }
