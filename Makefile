@@ -25,3 +25,7 @@ projects/polpware/tinymce-util/src/lib/api/%.ts: deps/tinymce/modules/tinymce/sr
 
 files: pre ${UTIL_FILES_SOURCES} ${API_FILES_SOURCES} ${API_UTIL_FILES_SOURCES}
 	echo "start"
+
+clean:
+	rm -rf projects/polpware/tinymce-util/src/lib/util
+	rm -rf projects/polpware/tinymce-util/src/lib/api/util
