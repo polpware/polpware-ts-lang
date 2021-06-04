@@ -24,6 +24,10 @@
       ],
       "@polpware/tinymce-util/*": [
         "dist/polpware/tinymce-util/*"
+      ],
+      "@polpware/expr-builder": [
+        "dist/polpware/expr-builder/polpware-expr-builder",
+        "dist/polpware/expr-builder"
       ]
     }
   },
