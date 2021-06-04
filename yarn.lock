@@ -1054,6 +1054,12 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
+"@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities":
+  version "9.1.0"
+  resolved "https://github.com/polpware-frontend-modules/polpware-fe-utilities#ada0e8cb2d88d201b10cbe67c19a4f0d97b3d7c8"
+  dependencies:
+    tslib "^1.10.0"
+
 "@rollup/plugin-commonjs@^11.0.2":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.1.0.tgz#60636c7a722f54b41e419e1709df05c7234557ef"
