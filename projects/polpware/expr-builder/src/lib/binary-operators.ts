@@ -1,3 +1,5 @@
+import { tyBool, tyNull, tyUndefined, tyNumber, tyString, tyDate, tySymbol, tyObject, tyArray, tyFunction } from '@polpware/fe-utilities';
+
 export enum OperatorEnum {
     Undefined = 0,
     LessThan,
@@ -112,5 +114,36 @@ export function translateStringToOperator(op: string) {
             return OperatorEnum.EndWith;
         default:
             return OperatorEnum.Undefined;
+    }
+}
+
+/**
+ * Translates the given into a JavaSrcipt type.
+ * @param ty
+ */
+export function translateStringToType(ty: string) {
+    switch (ty) {
+        case 'tyBool':
+            return tyBool;
+        case 'tyNull':
+            return tyNull;
+        case 'tyUndefined':
+            return tyUndefined;
+        case 'tyNumber':
+            return tyNumber;
+        case 'tyString':
+            return tyString;
+        case 'tyDate':
+            return tyDate;
+        case 'tySymbol':
+            return tySymbol;
+        case 'tyObject':
+            return tyObject;
+        case 'tyArray':
+            return tyArray;
+        case 'tyFunction':
+            return tyFunction;
+        default:
+            return tyString;
     }
 }
