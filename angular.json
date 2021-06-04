@@ -15,7 +15,12 @@
             "tsConfig": "projects/polpware/tinymce-util/tsconfig.lib.json",
             "project": "projects/polpware/tinymce-util/ng-package.json"
           }
-        },
+        ,          "configurations": {
+            "production": {
+              "tsConfig": "projects/polpware/tinymce-util/tsconfig.lib.prod.json"
+            }
+          }
+},
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
