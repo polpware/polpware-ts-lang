@@ -1,9 +1,10 @@
 {
     "name": "@polpware/expr-builder",
-    "version": "9.3.0",
+    "version": "9.4.0",
     "peerDependencies": {
         "@angular/common": "^9.0.0",
-        "@angular/core": "^9.0.0"
+        "@angular/core": "^9.0.0",
+        "@polpware/fe-utilities": "^9.0.0"
     },
     "dependencies": {
         "tslib": "^1.10.0"
