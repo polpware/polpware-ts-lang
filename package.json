@@ -29,6 +29,7 @@
     "@angular/router": "~13.3.6",
     "@ephox/dom-globals": "^1.1.2",
     "@ephox/katamari": "^4.0.3",
+    "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx13",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",

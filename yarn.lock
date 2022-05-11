@@ -2054,6 +2054,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx13":
+  version: 13.0.0
+  resolution: "@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#commit=5a1648869ec4c4075189cb08382031bd19ac15aa"
+  dependencies:
+    tslib: ^2.3.0
+  peerDependencies:
+    "@angular/common": ^13.2.0
+    "@angular/core": ^13.2.0
+    moment: ^2.0.0
+  checksum: 27f5a107bde19961e8e40431a20d11d0a2f0666580683e255420f38d23e1c7d412d4791395f4ac26fa84a6fec7730db225f84fb9dda5839e06e49e6d333392d6
+  languageName: node
+  linkType: hard
+
 "@rollup/plugin-json@npm:^4.1.0":
   version: 4.1.0
   resolution: "@rollup/plugin-json@npm:4.1.0"
@@ -8196,6 +8209,7 @@ __metadata:
     "@angular/router": ~13.3.6
     "@ephox/dom-globals": ^1.1.2
     "@ephox/katamari": ^4.0.3
+    "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#ngx13"
     "@types/jasmine": ~3.3.8
     "@types/jasminewd2": ~2.0.3
     "@types/node": ^12.11.1
