@@ -12,7 +12,6 @@
   },
   "private": true,
   "dependencies": {
-    "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
@@ -50,5 +49,5 @@
     "typescript": "~3.8.3",
     "zone.js": "~0.10.2"
   },
-  "peerDependencies": {}
+  "packageManager": "yarn@3.2.0"
 }
