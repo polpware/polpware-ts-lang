@@ -1508,15 +1508,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities":
-  version: 9.1.0
-  resolution: "@polpware/fe-utilities@https://github.com/polpware-frontend-modules/polpware-fe-utilities.git#commit=ada0e8cb2d88d201b10cbe67c19a4f0d97b3d7c8"
-  dependencies:
-    tslib: ^1.10.0
-  checksum: a911412123e0719998227e7bcc0683f553429706c253da5ca3f665b6e8a8c0f5240c73f9f461465d647eda366dd628b9a8b924c6e3cd31c819a74052cf1948c9
-  languageName: node
-  linkType: hard
-
 "@rollup/plugin-commonjs@npm:^11.0.2":
   version: 11.1.0
   resolution: "@rollup/plugin-commonjs@npm:11.1.0"
@@ -9595,7 +9586,6 @@ __metadata:
     "@angular/router": ~9.1.13
     "@ephox/dom-globals": ^1.1.2
     "@ephox/katamari": ^4.0.3
-    "@polpware/fe-utilities": "https://github.com/polpware-frontend-modules/polpware-fe-utilities"
     "@types/jasmine": ~3.3.8
     "@types/jasminewd2": ~2.0.3
     "@types/node": ^12.11.1
