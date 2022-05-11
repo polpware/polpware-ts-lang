@@ -10,7 +10,7 @@
       "prefix": "polp",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/polpware/tinymce-util/tsconfig.lib.json",
             "project": "projects/polpware/tinymce-util/ng-package.json"
@@ -50,7 +50,7 @@
       "prefix": "polp",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/polpware/expr-builder/tsconfig.lib.json",
             "project": "projects/polpware/expr-builder/ng-package.json"
